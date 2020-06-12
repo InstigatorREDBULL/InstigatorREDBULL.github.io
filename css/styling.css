@@ -15,16 +15,12 @@
 
 body
 {
-    margin-left: 10%;
+    margin-left: 10px !important;
 }
 
-#toc_container li, #toc_container ul, #toc_container ul li{
+/*#toc_container li, #toc_container ul, #toc_container ul li{
     list-style: outside none none !important;
-}
-
-h1 h2 h3 h5 {
-    text-align: center;
-}
+}*/
 
 .redtext{
     color:red;
@@ -54,4 +50,22 @@ table
     vertical-align: middle;
     max-width: 500px;
     max-height: 500px;
+}
+
+img {
+    max-width: 200px !important;
+}
+
+h3
+{
+    text-align: center !important;
+}
+
+summary{
+    background-color: lightgray;
+}
+
+details
+{
+    background-color: lightgray;
 }
