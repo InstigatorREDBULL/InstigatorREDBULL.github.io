@@ -13,11 +13,16 @@
     text-align: center;
 }
 
+body
+{
+    margin-left: 10%;
+}
+
 #toc_container li, #toc_container ul, #toc_container ul li{
     list-style: outside none none !important;
 }
 
-h5 {
+h1 h2 h3 h5 {
     text-align: center;
 }
 
@@ -47,4 +52,6 @@ table
 .gridcolumn img {
     margin-top: 8px;
     vertical-align: middle;
+    max-width: 500px;
+    max-height: 500px;
 }
