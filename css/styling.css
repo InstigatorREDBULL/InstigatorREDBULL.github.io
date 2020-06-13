@@ -44,6 +44,10 @@ h6 {
     font-weight: bolder;
 }
 
+strong {
+    filter: brightness(140%);
+}
+
 
 .bluediv summary
 {
@@ -132,6 +136,14 @@ h6 {
     background-color: #1E0000;
     border-radius: 12px;
     padding:10px;
+}
+
+.reddiv table
+{
+    width:100%;
+    background-color: #160000;
+    
+    padding-top: 12px;
 }
 
 .reddiv summary
@@ -261,6 +273,8 @@ h6 {
     padding: 10px;
 }
 
+
+
 /* https://www.youtube.com/watch?v=kWimlqGPr4Q */
 
 #menu, #menu ul
@@ -274,8 +288,10 @@ h6 {
     width:100%;
     background-color:#406080;
     /*border-radius:6px;*/
+    /*filter: brightness(150%);*/
     position:fixed;
     top:0px;
+    z-index: 10000;
 }
 
 #menu:before, #menu:after
@@ -315,7 +331,7 @@ h6 {
 #menu ul
 {
     margin: 0px 0 0 0;
-    opacity: 0;
+    opacity: 1;
     visibility:hidden;
     position: absolute;
     top: 46px;
