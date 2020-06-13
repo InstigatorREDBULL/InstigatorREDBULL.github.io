@@ -9,7 +9,9 @@ table {
     table-layout: fixed;
     word-wrap:break-word;
 }
-
+table, th, td {
+    border: 1px solid #000;
+}
 
 .gridrow {
     display: flex;
@@ -54,6 +56,9 @@ strong {
     filter: brightness(140%);
 }
 
+thead, th{
+    text-align: center;
+}
 
 .header-anchor {
     position: relative;
@@ -61,54 +66,44 @@ strong {
 }
 
 
+.bluediv {
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-right: 10px;
+    padding: 20px;
+    background-color: #001230;
+    color: #0050C8 !important;
+    border-radius: 20px;
+}
+
 .bluediv summary{
-    background-color: #000F2E;
+    background-color: #001C50;
     padding-left: 10px;
 }
 
 .bluediv details{
-    background-color: #000B26;
+    background-color: #001840;
     margin: 20px;
     padding: 10px;
 }
 
 .bluediv table{
     width:100%;
-    background-color: #000B26;
+    background-color: #001840;
     padding-top: 12px;
 }
 
-.bluediv table, th, td {
-    border: 1px solid black;
-}
-
-.bluediv thead{
-    border-top: #001428;
-}
-
-.bluediv thead, th{
-    text-align: center;
-}
-
 .bluediv h5{
-    background-color: #000B26;
+    background-color: #001540;
     border-color: #002f6e;
     border-style: groove;
 }
 
 .bluediv h6{
-    background-color: #000F2E;
+    background-color: #001540;
 }
 
-.bluediv {
-    margin-left: 10px;
-    margin-top: 50px;
-    margin-right: 10px;
-    padding: 20px;
-    background-color: #000921;
-    color: #004091 !important;
-    border-radius: 20px;
-}
+
 
 
 
@@ -137,9 +132,9 @@ strong {
 .reddiv table{
     width:100%;
     background-color: #160000;
-    
     padding-top: 12px;
 }
+
 
 .reddiv summary{
     background-color: #1E0000;
@@ -151,6 +146,7 @@ strong {
     margin: 20px;
     padding: 10px;
 }
+
 
 
 .greendiv{
@@ -185,6 +181,7 @@ strong {
 }
 
 
+
 .yellowdiv{
     margin-left: 10px;
     margin-top: 50px;
@@ -215,6 +212,7 @@ strong {
     margin: 20px;
     padding: 10px;
 }
+
 
 
 .purplediv{
