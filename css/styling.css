@@ -36,6 +36,8 @@ img {
 
 h1, h2, h3{
     text-align: center !important;
+    padding-top: 45px;
+    margin-top: -45px;
 }
 
 h6 {
@@ -82,7 +84,9 @@ h6 {
     background-color: #000B16;
     border: 5px #002f5e outset;
     border-radius: 12px;
-    padding:10px;
+    padding:20px;
+    padding-top: 25px;
+    margin-top: 10px;
 }
 
 .bluediv h6{
@@ -257,8 +261,6 @@ h6 {
     padding: 10px;
 }
 
-
-
 /* https://www.youtube.com/watch?v=kWimlqGPr4Q */
 
 #menu, #menu ul
@@ -312,7 +314,7 @@ h6 {
 
 #menu ul
 {
-    margin: 20px 0 0 0;
+    margin: 0px 0 0 0;
     opacity: 0;
     visibility:hidden;
     position: absolute;
