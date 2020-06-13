@@ -34,14 +34,20 @@ img {
     max-width: 300px !important;
 }
 
-h1, h2, h3{
+h1, h3{
     text-align: center !important;
     padding-top: 45px;
     margin-top: -45px;
 }
 
+h5{
+    padding: 10px;
+}
+
 h6 {
     font-weight: bolder;
+    padding:10px;
+    border-radius: 12px;
 }
 
 strong {
@@ -49,64 +55,58 @@ strong {
 }
 
 
-.bluediv summary
-{
-    background-color: #000F1E;
+.header-anchor {
+    position: relative;
+    top: -50px;
+}
+
+
+.bluediv summary{
+    background-color: #000F2E;
     padding-left: 10px;
 }
 
-.bluediv details
-{
-    background-color: #000B16;
+.bluediv details{
+    background-color: #000B26;
     margin: 20px;
     padding: 10px;
 }
 
-.bluediv table
-{
+.bluediv table{
     width:100%;
-    background-color: #000B16;
-    
+    background-color: #000B26;
     padding-top: 12px;
 }
 
 .bluediv table, th, td {
     border: 1px solid black;
-  }
+}
 
-.bluediv thead
-{
+.bluediv thead{
     border-top: #001428;
 }
 
-.bluediv thead, th
-{
+.bluediv thead, th{
     text-align: center;
 }
 
 .bluediv h5{
-    background-color: #000B16;
-    border: 5px #002f5e outset;
-    border-radius: 12px;
-    padding:20px;
-    padding-top: 25px;
-    margin-top: 10px;
+    background-color: #000B26;
+    border-color: #002f6e;
+    border-style: groove;
 }
 
 .bluediv h6{
-    background-color: #000F1E;
-    border-radius: 12px;
-    padding:10px;
+    background-color: #000F2E;
 }
 
-.bluediv
-{
+.bluediv {
     margin-left: 10px;
     margin-top: 50px;
     margin-right: 10px;
     padding: 20px;
-    background-color: #000911;
-    color: #004081 !important;
+    background-color: #000921;
+    color: #004091 !important;
     border-radius: 20px;
 }
 
@@ -114,8 +114,7 @@ strong {
 
 
 
-.reddiv
-{
+.reddiv{
     margin-left: 10px;
     margin-top: 50px;
     margin-right: 10px;
@@ -127,41 +126,34 @@ strong {
 
 .reddiv h5{
     background-color: #160000;
-    border: 5px #5E0000 outset;
-    border-radius: 12px;
-    padding:10px;
+    border-color: #5E0000;
+    border-style: groove;
 }
 
 .reddiv h6{
     background-color: #1E0000;
-    border-radius: 12px;
-    padding:10px;
 }
 
-.reddiv table
-{
+.reddiv table{
     width:100%;
     background-color: #160000;
     
     padding-top: 12px;
 }
 
-.reddiv summary
-{
+.reddiv summary{
     background-color: #1E0000;
     padding-left: 10px;
 }
 
-.reddiv details
-{
+.reddiv details{
     background-color: #160000;
     margin: 20px;
     padding: 10px;
 }
 
 
-.greendiv
-{
+.greendiv{
     margin-left: 10px;
     margin-top: 50px;
     margin-right: 10px;
@@ -173,33 +165,27 @@ strong {
 
 .greendiv h5{
     background-color: #001600;
-    border: 5px #005E00 outset;
-    border-radius: 12px;
-    padding:10px;
+    border-color: #005E00;
+    border-style: groove;
 }
 
 .greendiv h6{
     background-color: #001E00;
-    border-radius: 12px;
-    padding:10px;
 }
 
-.greendiv summary
-{
+.greendiv summary{
     background-color: #001E00;
     padding-left: 10px;
 }
 
-.greendiv details
-{
+.greendiv details{
     background-color: #001600;
     margin: 20px;
     padding: 10px;
 }
 
 
-.yellowdiv
-{
+.yellowdiv{
     margin-left: 10px;
     margin-top: 50px;
     margin-right: 10px;
@@ -211,33 +197,27 @@ strong {
 
 .yellowdiv h5{
     background-color: #161600;
-    border: 5px #5E5E00 outset;
-    border-radius: 12px;
-    padding:10px;
+    border-color:#5E5E00;
+    border-style: groove;
 }
 
 .yellowdiv h6{
     background-color: #1E1E00;
-    border-radius: 12px;
-    padding:10px;
 }
 
-.yellowdiv summary
-{
+.yellowdiv summary{
     background-color: #1E1E00;
     padding-left: 10px;
 }
 
-.yellowdiv details
-{
+.yellowdiv details{
     background-color: #161600;
     margin: 20px;
     padding: 10px;
 }
 
 
-.purplediv
-{
+.purplediv{
     margin-left: 10px;
     margin-top: 50px;
     margin-right: 10px;
@@ -249,25 +229,20 @@ strong {
 
 .purplediv h5{
     background-color: #160016;
-    border: 5px #5E005E outset;
-    border-radius: 12px;
-    padding:10px;
+    border-color: #5E005E;
+    border-style: groove;
 }
 
 .purplediv h6{
     background-color: #1E001E;
-    border-radius: 12px;
-    padding:10px;
 }
 
-.purplediv summary
-{
+.purplediv summary{
     background-color: #1E001E;
     padding-left: 10px;
 }
 
-.purplediv details
-{
+.purplediv details{
     background-color: #160016;
     margin: 20px;
     padding: 10px;
