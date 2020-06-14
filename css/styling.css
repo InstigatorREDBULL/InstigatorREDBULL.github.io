@@ -314,7 +314,7 @@ thead, th{
     z-index: 1;
     background: #344E67;/* dropdown background*/
     border-radius: 3px;
-    transition: all .3s ease-in-out;
+    /*transition: all .3s ease-in-out;*/
 }
 
 #menu li:hover > ul {
