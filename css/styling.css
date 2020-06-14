@@ -78,35 +78,36 @@ thead, th{
     margin-top: 50px;
     margin-right: 10px;
     padding: 20px;
-    background-color: #001230;
-    color: #0050C8 !important;
+    background-color: #001840;
+    color: #0060E8 !important;
     border-radius: 20px;
 }
 
 .bluediv summary{
-    background-color: #001C50;
+    background-color: #003080;
+    color:#0080FF;
     padding-left: 10px;
 }
 
 .bluediv details{
-    background-color: #001840;
+    background-color: #002050;
     margin: 20px;
     padding: 10px;
 }
 
 .bluediv table{
     width:100%;
-    background-color: #001840;
+    background-color: #002050;
     padding-top: 12px;
 }
 
 .bluediv h5{
-    background-color: #001540;
-    border-color: #002f6e;
+    background-color: #002048;
+    border-color: #0050C8;
 }
 
 .bluediv h6{
-    background-color: #001540;
+    background-color: #002050;
 }
 
 
