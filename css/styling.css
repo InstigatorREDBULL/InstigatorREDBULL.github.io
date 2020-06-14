@@ -43,7 +43,10 @@ h1, h3{
 }
 
 h5{
+    text-align: center !important;
     padding: 10px;
+    border-style: double;
+    border-radius: 12px;
 }
 
 h6 {
@@ -65,6 +68,10 @@ thead, th{
     top: -50px;
 }
 
+#disposal, #eveline {
+    position: relative;
+    top: -50px;
+}
 
 .bluediv {
     margin-left: 10px;
@@ -96,7 +103,6 @@ thead, th{
 .bluediv h5{
     background-color: #001540;
     border-color: #002f6e;
-    border-style: groove;
 }
 
 .bluediv h6{
@@ -122,7 +128,6 @@ thead, th{
 .reddiv h5{
     background-color: #160000;
     border-color: #5E0000;
-    border-style: groove;
 }
 
 .reddiv h6{
@@ -162,7 +167,6 @@ thead, th{
 .greendiv h5{
     background-color: #001600;
     border-color: #005E00;
-    border-style: groove;
 }
 
 .greendiv h6{
@@ -195,7 +199,6 @@ thead, th{
 .yellowdiv h5{
     background-color: #161600;
     border-color:#5E5E00;
-    border-style: groove;
 }
 
 .yellowdiv h6{
@@ -228,7 +231,6 @@ thead, th{
 .purplediv h5{
     background-color: #160016;
     border-color: #5E005E;
-    border-style: groove;
 }
 
 .purplediv h6{
