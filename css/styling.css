@@ -165,6 +165,17 @@ thead, th{
     border-radius: 20px;
 }
 
+.greendiv table{
+    width:100%;
+    background-color: #001E00;
+    padding-top: 12px;
+}
+
+.greendiv td p
+{
+    text-align: center;
+}
+
 .greendiv h5{
     background-color: #001600;
     border-color: #005E00;
@@ -195,6 +206,12 @@ thead, th{
     background-color: #111100;
     color: #818100 !important;
     border-radius: 20px;
+}
+
+.yellowdiv table{
+    width:100%;
+    background-color: #161600;
+    padding-top: 12px;
 }
 
 .yellowdiv h5{
