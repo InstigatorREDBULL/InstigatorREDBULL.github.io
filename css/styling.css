@@ -357,8 +357,9 @@ thead, th{
 
 #menu ul ul {
     top:0;
-    left:150px;
+    left:175px;
     margin: 0 0 0 10px;
+    background: #283C4F;
 }
 
 #menu ul li {
@@ -382,7 +383,7 @@ thead, th{
 }
 
 #menu ul a:hover {
-    background-color: #426282;/*hover over dropdown item*/
+    background-color: #537CA6;/*hover over dropdown item*/
 }
 
 #menu ul li:first-child > a {
