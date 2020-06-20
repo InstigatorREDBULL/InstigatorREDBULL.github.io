@@ -13,6 +13,16 @@ table, th, td {
     border: 1px solid #000;
 }
 
+.redtext {
+    color:red !important;
+}
+
+.indexbox
+{
+    background-color: #314A64 !important;
+}
+
+
 .gridrow {
     display: flex;
     flex-wrap: wrap;
