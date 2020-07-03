@@ -83,6 +83,22 @@ thead, th{
     top: -50px;
 }
 
+
+.bluediv a:active
+{
+    color:255,255,0;
+}
+
+.bluediv a:visited
+{
+    color:190,190,0;
+}
+
+.bluediv a:hover
+{
+    color:255,255,255;
+}
+
 .bluediv {
     margin-left: 10px;
     margin-top: 50px;
