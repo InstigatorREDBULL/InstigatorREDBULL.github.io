@@ -67,6 +67,7 @@ h6 {
     font-weight: bolder;
     padding:10px;
     border-radius: 12px;
+    text-align: center;
 }
 
 strong {
@@ -108,36 +109,36 @@ thead, th{
     margin-top: 50px;
     margin-right: 10px;
     padding: 20px;
-    background-color: #001840;
-    color: #0060E8 !important;
+    background-color: #161616;
+    color: #606060 !important;
     border-radius: 20px;
 }
 
 .bluediv summary{
-    background-color: #003080;
+    background-color: #303030;
     color:#0080FF;
     padding-left: 10px;
 }
 
 .bluediv details{
-    background-color: #002050;
+    background-color: #202020;
     margin: 20px;
     padding: 10px;
 }
 
 .bluediv table{
     width:100%;
-    background-color: #002050;
+    background-color: #202020;
     padding-top: 12px;
 }
 
 .bluediv h5{
-    background-color: #002048;
-    border-color: #0050C8;
+    background-color: #202020;
+    border-color: #505050;
 }
 
 .bluediv h6{
-    background-color: #002050;
+    background-color: #202020;
 }
 
 
