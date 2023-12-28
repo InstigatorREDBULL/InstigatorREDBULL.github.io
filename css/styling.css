@@ -22,6 +22,18 @@ table, th, td {
     background-color: #314A64 !important;
 }
 
+/* details > summary {
+    cursor: pointer;
+} */
+
+details[open] summary ~ * {
+    animation: sweep .5s ease-in-out;
+  }
+  @keyframes sweep {
+    0%    {opacity: 0; margin-top: -10px}
+    100%  {opacity: 1; margin-top: 0px}
+  }
+
 
 .gridrow {
     display: flex;
@@ -89,6 +101,8 @@ thead, th{
 }
 
 
+
+
 .bluediv a:active
 {
     color:255,255,0;
@@ -115,8 +129,8 @@ thead, th{
 }
 
 .bluediv summary{
-    background-color: #303030;
-    color:#0080FF;
+    background-color: #202020;
+    color:#868686;
     padding-left: 10px;
 }
 
@@ -124,6 +138,8 @@ thead, th{
     background-color: #202020;
     margin: 20px;
     padding: 10px;
+    border: 1px solid #2e2e2e;
+    border-radius: 4px;
 }
 
 .bluediv table{
@@ -178,7 +194,7 @@ thead, th{
 }
 
 .reddiv summary{
-    background-color: #1E0000;
+    background-color: #160000;
     padding-left: 10px;
 }
 
@@ -186,6 +202,8 @@ thead, th{
     background-color: #160000;
     margin: 20px;
     padding: 10px;
+    border: 1px solid #1E0000;
+    border-radius: 4px;
 }
 
 
@@ -221,7 +239,7 @@ thead, th{
 }
 
 .greendiv summary{
-    background-color: #001E00;
+    background-color: #001600;
     padding-left: 10px;
 }
 
@@ -229,6 +247,8 @@ thead, th{
     background-color: #001600;
     margin: 20px;
     padding: 10px;
+    border: 1px solid #001E00;
+    border-radius: 4px;
 }
 
 
@@ -259,7 +279,7 @@ thead, th{
 }
 
 .yellowdiv summary{
-    background-color: #1E1E00;
+    background-color: #161600;
     padding-left: 10px;
 }
 
@@ -267,6 +287,8 @@ thead, th{
     background-color: #161600;
     margin: 20px;
     padding: 10px;
+    border: 1px solid #1E1E00;
+    border-radius: 4px;
 }
 
 
@@ -291,7 +313,7 @@ thead, th{
 }
 
 .purplediv summary{
-    background-color: #1E001E;
+    background-color: #160016;
     padding-left: 10px;
 }
 
@@ -299,6 +321,8 @@ thead, th{
     background-color: #160016;
     margin: 20px;
     padding: 10px;
+    border: 1px solid #1E001E;
+    border-radius: 4px;
 }
 
 
